@@ -10,14 +10,14 @@ defmodule Pogo.MixProject do
       project: [
         licenses: ["Apache 2"],
         links: %{
-          "Repository" => "https://github.com/commonspub/pogo",
+          "Repository" => "https://github.com/bonfire-networks/pogo",
           # "Hexdocs" => "https://hexdocs.pm/pogo"
         }
       ],
       docs: [
         name: "Pogo",
         main: "readme",
-        source_url: "https://github.com/commonspub/pogo",
+        source_url: "https://github.com/bonfire-networks/pogo",
         extras: [ "README.md" ],
       ],
       deps: deps(),
